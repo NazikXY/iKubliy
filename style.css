@@ -1,0 +1,263 @@
+/* CSS Document */
+.class_lectures{
+    color: red;
+    font-weight: normal;
+}
+.class_modeles{
+    color: darkblue;
+    font-weight: bold;
+}
+#modules_profile{
+    font-weight:bold;
+}
+/******************************************/
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 99%;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+ul.menu > li > a:hover {
+}
+/******************************************/
+ul#submenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    overflow-y: auto;
+    height: 200px;
+}
+ul#submenu > li {
+    display: block;
+    cursor: pointer;
+}
+ul#submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+ul#submenu > li > a:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+ul.menu > li:hover > ul#submenu {
+    display: block;
+}
+ul#submenu > li:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+/******************************************/
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+.avatar{
+    display: block;
+    border-radius: 100px;
+}
+.table_info{
+    width: 100%;
+    height: 100%;
+}
+.right_column{
+    text-align: left;
+    padding: 10px;
+}
+.left_column{
+    text-align: right;
+    width: 22%;
+}
+h6{
+    font-size: 16px;
+    font-style: normal;
+}
+p{
+    font-size: 16px;
+    font-style: italic;
+}
+.header_img{
+    height: 200px;
+    width: 100%;
+}
+.samsung{
+}
+@media (min-width: 1000px) {
+
+    .main{
+        width: 1000px;
+        height: 900px;
+    }
+    .header{
+        width: 100%;
+        height: 200px;
+    }
+    .sidebarL{
+        width: 200px;
+        height: 600px;
+        float: left;
+        padding: 5px;
+        /*border: 1px solid grey;*/
+    }
+    .left_image{
+        width: 190px;
+        opacity: 0.75;
+    }
+    .Content{
+        width: 720px;
+        height: 600px;
+        margin: 0px 60px 0px 210px;
+        /*background-color: #4b75a4;*/
+    }
+    .photo{
+        width: 35%;
+        height: 50%;
+    }
+    .sidebarR{
+        width: 65px;
+        height: 600px;
+        float: right;
+        /*background-color: antiquewhite;*/
+    }
+    .Footer{
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+    .table_main{
+        width: 100%;
+        height: 100%;
+    }
+    .left_cont_button{
+        display: block;
+        width: 80%;
+        height: 52px;
+        border-radius: 10px;
+        border: none;
+        border-top: 1px solid #9fb5ce;
+        color: #ffffff;
+        background: #4b75a4;
+        box-shadow: 0px 2px 0px #7f7f7f;
+        font: normal 400 28px/50px "MyriadPro2";
+        font-size: 25px;
+        text-shadow: 1px 2px 1px rgba(0,0,0,.5);
+        /*opacity: 0.65;*/
+    }
+    .left_cont_button:hover{
+        display: block;
+        width: 80%;
+        height: 52px;
+        border-radius: 10px;
+        border: none;
+        border-top: 1px solid #9fb5ce;
+        color: #ffffff;
+        background: #4b75a4;
+        box-shadow: 0px 2px 0px #7f7f7f;
+        font: normal 400 28px/50px "MyriadPro2";
+        font-size: 25px;
+        text-shadow: 1px 2px 1px rgba(0,0,0,.5);
+        opacity: 0.65;
+    }
+    .left_cont_int{
+        height: 50%;
+        width: 90%;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+    .main{
+        width: 768px;
+        height: 900px;
+    }
+    .header{
+        width: 100%;
+        height: 200px;
+    }
+    .sidebarL{
+        width: 100px;
+        height: 600px;
+        float: left;
+        padding: 3px;
+    }
+    .left_image{
+        width: 98px;
+        opacity: 0.55;
+    }
+    .samsung{
+        width: 98px;
+    }
+    .Content{
+        width: 600px;
+        height: 600px;
+        margin: 0px 53px 0px 115px;
+    }
+    .photo{
+        width: 35%;
+        height: 50%;
+    }
+    .sidebarR{
+        width: 50px;
+        height: 600px;
+        float: right;
+    }
+    .Footer{
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+    .table_main{
+        width: 100%;
+        height: 92%;
+    }
+    .left_cont_button{
+        display: block;
+        width: 90%;
+        height: 30px;
+        border-radius: 7px;
+        border: none;
+        border-top: 1px solid #9fb5ce;
+        color: #ffffff;
+        background: #4b75a4;
+        box-shadow: 0px 2px 0px #7f7f7f;
+        font: normal 400 28px/30px "MyriadPro2";
+        font-size: 25px;
+        text-shadow: 1px 2px 1px rgba(0,0,0,.5);
+        font-size: 16px;
+        opacity: 0.65;
+    }
+    .left_cont_int{
+        height: 35%;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+.lectures.active{
+    display: block;
+}
+.lectures{
+    display: none;
+}
